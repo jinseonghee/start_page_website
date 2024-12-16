@@ -4,6 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Start Landing Page</title>
+    <link
+      rel="preload"
+      href="./font/crimson_text/CrimsonText-Bold.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./font/noto_sans/NotoSansCondensed-Regular.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -13,37 +27,57 @@
       <div class="container">
         <nav>
           <a href="#" class="logo">
-            <div class="logo-icon">
+            <div class="logo_icon">
               <img src="./images/start/icon.svg" />
             </div>
             Start
           </a>
-          <div class="nav-links">
-            <a href="./index.html">Home</a>
-            <a href="./portfolio.html">Portfolio</a>
-            <a href="./service.html">Services</a>
-            <a href="#">Contact</a>
+          <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="nav_links">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./portfolio.html">Portfolio</a></li>
+              <li><a href="./service.html">Services</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
           </div>
         </nav>
-
-        <div class="main-content" id="hero-content">
-          <div class="text-content">
+        <div class="main_content" id="hero_content">
+          <div class="text_content">
             <div class="welcome">WELCOME</div>
-
-            <h1>Lorem ipsum dolor sit amet consectetur</h1>
+            <div class="title">Lorem ipsum dolor sit amet consectetur</div>
             <p class="description">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
               nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
               voluptate culpa nesciunt delectus iste?
             </p>
-            <a href="#" class="explore-btn">Explore</a>
+            <a href="#" class="explore_btn">Explore</a>
           </div>
-          <div>
-            <img
+          <div class="slide">
+            <div class="slide slide_wrap_box">
+              <div class="slide_item item1">
+                <img class="illustration" src="./images/start/img-1.svg" />
+              </div>
+              <div class="slide_item item2">
+                <img class="illustration" src="./images/start/img-2.svg" />
+              </div>
+              <div class="slide_item item3">
+                <img class="illustration" src="./images/start/img-3.svg" />
+              </div>
+              <div class="slide_prev_button slide_button">&lt;</div>
+              <div class="slide_next_button slide_button">&gt;</div>
+              <ul class="slide_pagination"></ul>
+            </div>
+            <!-- <img
               class="illustration"
               src="./images/start/image01.svg"
-              alt="Team illustration"
-            />
+              alt="team illustration"
+            /> -->
           </div>
         </div>
       </div>
@@ -55,50 +89,49 @@
         <h2>PARTNERS</h2>
         <h3>Lorem Ipsum Dolor</h3>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-        <div class="partner-logos">
-          <img src="./images/start/google.svg" alt="Google" />
-          <img src="./images/start/microsoft.svg" alt="Microsoft" />
-          <img src="./images/start/airbnb.svg" alt="Airbnb" />
-          <img src="./images/start/facebook.svg" alt="Facebook" />
-          <img src="./images/start/spotify.svg" alt="Spotify" />
+        <div class="partner_logos">
+          <img src="./images/start/google.svg" alt="google" />
+          <img src="./images/start/microsoft.svg" alt="microsoft" />
+          <img src="./images/start/airbnb.svg" alt="airbnb" />
+          <img src="./images/start/facebook.svg" alt="facebook" />
+          <img src="./images/start/spotify.svg" alt="spotify" />
         </div>
-        <a href="#" class="learn-more-btn">Learn More</a>
+        <a href="#" class="learn_more_btn">Learn More</a>
       </div>
     </section>
     <!--section02-->
     <section class="features">
       <div class="container">
-        <div class="feature-item reverse">
-          <div class="feature-text">
+        <div class="feature_item reverse">
+          <div class="feature_text">
             <h3>Lorem ipsum dolor sit amet consectetur</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
               nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
               voluptate culpa nesciunt delectus iste?
             </p>
-            <a href="#" class="learn-more-btn">Learn More</a>
+            <a href="#" class="learn_more_btn">Learn More</a>
           </div>
-          <div class="feature-image">
-            <img src="./images/start/image02.svg" alt="Feature illustration" />
+          <div class="feature_image">
+            <img src="./images/start/img-2.svg" alt="Feature illustration" />
           </div>
         </div>
-        <div class="feature-item">
-          <div class="feature-text">
+        <div class="feature_item">
+          <div class="feature_text">
             <h3>Lorem ipsum dolor sit amet consectetur</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
               nemo hic quos, ab, dolor aperiam nobis cum est eos error ipsum,
               voluptate culpa nesciunt delectus iste?
             </p>
-            <a href="#" class="learn-more-btn">Learn More</a>
+            <a href="#" class="learn_more_btn">Learn More</a>
           </div>
-          <div class="feature-image">
-            <img src="./images/start/image03.svg" alt="Feature illustration" />
+          <div class="feature_image">
+            <img src="./images/start/img-3.svg" alt="feature illustration" />
           </div>
         </div>
       </div>
     </section>
-
     <!--section03-->
     <section class="team">
       <h2>TEAM</h2>
@@ -108,56 +141,55 @@
           Lorem ipsum, dolor sit amet consectetur<br />Suscipit nemo hic quos,
           ab,
         </p>
-        <div class="team-members">
-          <div class="member-card">
-            <img src="./images/start/person1.svg" alt="Peg Legge" />
+        <div class="team_members">
+          <div class="member_card">
+            <img src="./images/start/person1.svg" alt="peg Legge" />
             <h4>Peg Legge</h4>
             <p>CEO</p>
           </div>
-          <div class="member-card">
-            <img src="./images/start/person2.svg" alt="Richard Guerra" />
+          <div class="member_card">
+            <img src="./images/start/person2.svg" alt="richard Guerra" />
             <h4>Richard Guerra</h4>
             <p>CTO</p>
           </div>
-          <div class="member-card">
-            <img src="./images/start/person3.svg" alt="Alexandra Stolz" />
+          <div class="member_card">
+            <img src="./images/start/person3.svg" alt="alexandra Stolz" />
             <h4>Alexandra Stolz</h4>
             <p>DESIGNER</p>
           </div>
-          <div class="member-card">
-            <img src="./images/start/person4.svg" alt="Janet Bray" />
+          <div class="member_card">
+            <img src="./images/start/person4.svg" alt="janet Bray" />
             <h4>Janet Bray</h4>
             <p>DEVELOPER</p>
           </div>
         </div>
-        <a href="#" class="view-team-btn">View Team</a>
+        <a href="#" class="view_team_btn">View Team</a>
       </div>
     </section>
-
     <!-- Footer -->
     <footer>
       <div class="container">
         <nav>
-          <div class="social-links">
-            <a href="#"
+          <div class="social_links">
+            <a href="https://www.facebook.com"
               ><img src="./images/common/Group33.svg" alt="facebook"
             /></a>
-            <a href="#"
+            <a href="https://www.instagram.com"
               ><img src="./images/common/Group34.svg" alt="instagram"
             /></a>
-            <a href="#"
+            <a href="https://www.twitter.com"
               ><img src="./images/common/Group35.svg" alt="twitter"
             /></a>
-            <a href="#"
+            <a href="https://www.pinterest.com"
               ><img src="./images/common/Group36.svg" alt="pinterest"
             /></a>
-            <a href="#"
+            <a href="https://www.tikTok.com"
               ><img src="./images/common/Group37.svg" alt="tikTok"
             /></a>
-            <a href="#"
+            <a href="https://www.watchapp.com"
               ><img src="./images/common/Group38.svg" alt="watchapp"
             /></a>
-            <a href="#"
+            <a href="https://www.youTube.com"
               ><img src="./images/common/Group39.svg" alt="youTube"
             /></a>
           </div>
@@ -165,6 +197,6 @@
         </nav>
       </div>
     </footer>
-    <script src="./main.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

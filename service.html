@@ -3,26 +3,48 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Service Page</title>
+    <link
+      rel="preload"
+      href="./font/crimson_text/CrimsonText-Bold.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./font/noto_sans/NotoSansCondensed-Regular.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <!--section header-->
-    <header class="portfolio-header">
+    <header class="portfolio_header">
       <div class="container">
         <nav>
           <a href="./index.html" class="logo">
-            <div class="logo-icon">
+            <div class="logo_icon">
               <img src="./images/start/icon.svg" />
             </div>
             Start
           </a>
-          <div class="nav-links">
-            <a href="./index.html">Home</a>
-            <a href="./portfolio.html">Portfolio</a>
-            <a href="./service.html">Services</a>
-            <a href="#">Contact</a>
+          <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="nav_links">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./portfolio.html">Portfolio</a></li>
+              <li><a href="./service.html">Services</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
           </div>
         </nav>
       </div>
@@ -33,146 +55,151 @@
         <h2>PLANS</h2>
         <h3>Our Services</h3>
         <p>Lorem ipsum, dolor sit amet consectetur<br />adipisicing elit.</p>
-        <div class="service-container">
-          <div class="service-card">
-            <h2 id="card-title">Basic</h2>
-            <h3>$100</h3>
+        <div class="service_container">
+          <div class="service_card">
+            <h2 id="card_title">Basic</h2>
+            <span class="amount">$100</span>
+            <span class="period">/month</span>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
               nemo hic quos, ab, dolor aperiam
             </p>
-            <div class="test">
-            <div>
-              <p>
-                <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
-              </p>
-            </div>
-            <div>
-              <p>
-                <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
-              </p>
-            </div>
-            <div>
-              <p>
-                <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
-              </p>
-            </div>
-            <div>
-              <p>
-                <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
-              </p>
-            </div>
-            <div>
-              <p>
-                <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
-              </p>
-            </div>
-              <a href="#" class="learn-more-btn">Learn More</a>
+            <div class="price_box">
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <a href="#" class="learn_more_btn">Learn More</a>
             </div>
           </div>
-          <div class="service-card">
-            <h2 id="card-title">Plus</h2>
-            <h3>$250</h3>
+          <div class="service_card">
+            <h2 id="card_title">Plus</h2>
+            <span class="amount">$250</span>
+            <span class="period">/month</span>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
               nemo hic quos, ab, dolor aperiam
             </p>
+            <div class="price_box">
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <a href="#" class="learn_more_btn">Learn More</a>
+            </div>
           </div>
-          <div class="service-card">
-            <h2 id="card-title">Pro</h2>
-            <h3>$400</h3>
+          <div class="service_card">
+            <h2 id="card_title">Pro</h2>
+            <span class="amount">$400</span>
+            <span class="period">/month</span>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
               nemo hic quos, ab, dolor aperiam
             </p>
+            <div class="price_box">
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <div>
+                <p>
+                  <img src="./images/common/check.svg" />Lorem ipsum, dolor sit
+                </p>
+              </div>
+              <a href="#" class="learn_more_btn">Learn More</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
-    <!--test-->
-<!--    <section class="works">-->
-<!--      <div class="container">-->
-<!--        <h2>PLANS</h2>-->
-<!--        <h1>Our Services</h1>-->
-<!--        <p class="service-desc">Lorem ipsum, dolor sit amet consectetur<br>adipisicing elit.</p>-->
-
-<!--        <div class="service-container">-->
-<!--          <div class="service-card">-->
-<!--            <span class="plan-title">Basic</span>-->
-<!--            <div class="price">-->
-<!--              <span class="amount">$100</span>-->
-<!--              <span class="period">/month</span>-->
-<!--            </div>-->
-<!--            <p class="card-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit nemo hic quos, ab, dolor aperiam</p>-->
-<!--            <div class="features-list">-->
-<!--              <div class="feature-item">-->
-<!--                <img src="./images/common/check.svg" alt="check">-->
-<!--                <span>Lorem ipsum, dolor sit</span>-->
-<!--              </div>-->
-<!--              <div class="feature-item">-->
-<!--                <img src="./images/common/check.svg" alt="check">-->
-<!--                <span>Lorem ipsum, dolor sit</span>-->
-<!--              </div>-->
-<!--              <div class="feature-item">-->
-<!--                <img src="./images/common/check.svg" alt="check">-->
-<!--                <span>Lorem ipsum, dolor sit</span>-->
-<!--              </div>-->
-<!--              <div class="feature-item">-->
-<!--                <img src="./images/common/check.svg" alt="check">-->
-<!--                <span>Lorem ipsum, dolor sit</span>-->
-<!--              </div>-->
-<!--              <div class="feature-item">-->
-<!--                <img src="./images/common/check.svg" alt="check">-->
-<!--                <span>Lorem ipsum, dolor sit</span>-->
-<!--              </div>-->
-<!--            </div>-->
-<!--            <button class="learn-more-btn">Learn More</button>-->
-<!--          </div>-->
-
-<!--          &lt;!&ndash; Plus Card &ndash;&gt;-->
-<!--          <div class="service-card">-->
-<!--            &lt;!&ndash; Similar structure as Basic card &ndash;&gt;-->
-<!--            &lt;!&ndash; 동일한 구조로 Plus 카드의 내용만 변경 &ndash;&gt;-->
-<!--          </div>-->
-
-<!--          &lt;!&ndash; Pro Card &ndash;&gt;-->
-<!--          <div class="service-card">-->
-<!--            &lt;!&ndash; Similar structure as Basic card &ndash;&gt;-->
-<!--            &lt;!&ndash; 동일한 구조로 Pro 카드의 내용만 변경 &ndash;&gt;-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </section>-->
     <footer>
       <div class="container">
         <nav>
-          <div class="social-links">
-            <a href="#"
-              ><img src="./images/common/Group33.svg" alt="Facebook"
+          <div class="social_links">
+            <a href="https://www.facebook.com"
+              ><img src="./images/common/Group33.svg" alt="facebook"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group34.svg" alt="Instagram"
+            <a href="https://www.instagram.com"
+              ><img src="./images/common/Group34.svg" alt="instagram"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group35.svg" alt="Twitter"
+            <a href="https://www.twitter.com"
+              ><img src="./images/common/Group35.svg" alt="twitter"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group36.svg" alt="Pinterest"
+            <a href="https://www.pinterest.com"
+              ><img src="./images/common/Group36.svg" alt="pinterest"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group37.svg" alt="TikTok"
+            <a href="https://www.tikTok.com"
+              ><img src="./images/common/Group37.svg" alt="tikTok"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group38.svg" alt="Whatsapp"
+            <a href="https://www.watchapp.com"
+              ><img src="./images/common/Group38.svg" alt="whatsapp"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group39.svg" alt="YouTube"
+            <a href="https://www.youTube.com"
+              ><img src="./images/common/Group39.svg" alt="youTube"
             /></a>
           </div>
           <div>© Start, 2022. All rights reserved.</div>
         </nav>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

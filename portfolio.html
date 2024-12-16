@@ -2,105 +2,126 @@
 <html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width= , initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Page</title>
+    <link
+      rel="preload"
+      href="./font/crimson_text/CrimsonText-Bold.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="./font/noto_sans/NotoSansCondensed-Regular.woff"
+      as="font"
+      type="font/woff"
+      crossorigin
+    />
     <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <!--section header-->
-    <header class="portfolio-header">
+    <header class="portfolio_header">
       <div class="container">
         <nav>
-          <a href="#" class="logo">
-            <div class="logo-icon">
+          <a href="./index.html" class="logo">
+            <div class="logo_icon">
               <img src="./images/start/icon.svg" />
             </div>
             Start
           </a>
-          <div class="nav-links">
-            <a href="./index.html">Home</a>
-            <a href="./portfolio.html">Portfolio</a>
-            <a href="./service.html">Services</a>
-            <a href="#">Contact</a>
+          <button class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <div class="nav_links">
+            <ul>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./portfolio.html">Portfolio</a></li>
+              <li><a href="./service.html">Services</a></li>
+              <li><a href="./contact.html">Contact</a></li>
+            </ul>
           </div>
         </nav>
       </div>
     </header>
-    <!--section work-->
     <section class="works">
       <div class="container">
         <h2>WORKS</h2>
         <h3>Portfolio</h3>
         <p>Lorem ipsum, dolor sit amet consectetur<br />adipisicing elit.</p>
-        <div class="portfolio-grid">
-          <div class="portfolio-item">
+        <div class="portfolio_grid">
+          <div class="portfolio_item">
             <img
               src="./images/portfolio/group01.svg"
               alt="Landing Page Design"
             />
           </div>
-          <div class="portfolio-item">
+          <div class="portfolio_item">
             <img
               src="./images/portfolio/group02.svg"
               alt="Web Design Landing Page"
             />
           </div>
-          <div class="portfolio-item">
+          <div class="portfolio_item">
             <img
               src="./images/portfolio/group03.svg"
               alt="Rocket Your Business"
             />
           </div>
-          <div class="portfolio-item">
-            <img src="./images/portfolio/group04.svg" alt="Shopping" />
+          <div class="portfolio_item">
+            <img src="./images/portfolio/group04.svg" alt="shopping" />
           </div>
-          <div class="portfolio-item">
-            <img src="./images/portfolio/group05.svg" alt="Geometric Shapes" />
+          <div class="portfolio_item">
+            <img src="./images/portfolio/group05.svg" alt="geometric Shapes" />
           </div>
-          <div class="portfolio-item">
-            <img src="./images/portfolio/group06.svg" alt="Trick or Treat" />
+          <div class="portfolio_item">
+            <img src="./images/portfolio/group06.svg" alt="trick or treat" />
           </div>
-          <div class="portfolio-item">
-            <img src="./images/portfolio/group07.svg" alt="Halloween" />
+          <div class="portfolio_item">
+            <img src="./images/portfolio/group07.svg" alt="halloween" />
           </div>
-          <div class="portfolio-item">
-            <img src="./images/portfolio/group08.svg" alt="Virtual Reality" />
+          <div class="portfolio_item">
+            <img src="./images/portfolio/group08.svg" alt="virtual reality" />
           </div>
         </div>
-        <a href="#" class="learn-more-btn" id="portfolio-btn">Learn More</a>
+        <a href="#" class="learn_more_btn" id="portfolio_btn">Learn More</a>
       </div>
     </section>
 
     <footer>
       <div class="container">
         <nav>
-          <div class="social-links">
-            <a href="#"
-              ><img src="./images/common/Group33.svg" alt="Facebook"
+          <div class="social_links">
+            <a href="https://www.facebook.com"
+              ><img src="./images/common/Group33.svg" alt="facebook"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group34.svg" alt="Instagram"
+            <a href="https://www.instagram.com"
+              ><img src="./images/common/Group34.svg" alt="instagram"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group35.svg" alt="Twitter"
+            <a href="https://www.twitter.com"
+              ><img src="./images/common/Group35.svg" alt="twitter"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group36.svg" alt="Pinterest"
+            <a href="https://www.pinterest.com"
+              ><img src="./images/common/Group36.svg" alt="pinterest"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group37.svg" alt="TikTok"
+            <a href="https://www.tikTok.com"
+              ><img src="./images/common/Group37.svg" alt="tikTok"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group38.svg" alt="Whatsapp"
+            <a href="https://www.watchapp.com"
+              ><img src="./images/common/Group38.svg" alt="whatsapp"
             /></a>
-            <a href="#"
-              ><img src="./images/common/Group39.svg" alt="YouTube"
+            <a href="https://www.youTube.com"
+              ><img src="./images/common/Group39.svg" alt="youTube"
             /></a>
           </div>
           <div>© Start, 2022. All rights reserved.</div>
         </nav>
       </div>
     </footer>
+    <script src="./js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-Black.eot');
+    src: url('NotoSansCondensed-Black.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansCondensed-Black.woff2') format('woff2'),
+        url('NotoSansCondensed-Black.woff') format('woff'),
+        url('NotoSansCondensed-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-Medium.eot');
+    src: url('NotoSansCondensed-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansCondensed-Medium.woff2') format('woff2'),
+        url('NotoSansCondensed-Medium.woff') format('woff'),
+        url('NotoSansCondensed-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans Condensed';
+    src: url('NotoSansCondensed-Regular.eot');
+    src: url('NotoSansCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansCondensed-Regular.woff2') format('woff2'),
+        url('NotoSansCondensed-Regular.woff') format('woff'),
+        url('NotoSansCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Noto Sans SemiCondensed';
+    src: url('NotoSansSemiCondensed-Regular.eot');
+    src: url('NotoSansSemiCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NotoSansSemiCondensed-Regular.woff2') format('woff2'),
+        url('NotoSansSemiCondensed-Regular.woff') format('woff'),
+        url('NotoSansSemiCondensed-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
